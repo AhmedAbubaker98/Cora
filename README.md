@@ -1,4 +1,5 @@
-**This project is still under development and is updated regularly, expect bugs, expect thrm to get fixed soo as well**
+**This project is still under development and is updated regularly, expect bugs, expect them to get fixed soon as well**
+
 **This project creates a Streamlit app that provides a conversational interface to interact with a large language model called Cora. Cora is designed to offer personalized guidance and support to leaders, helping them navigate challenges, develop their skills, and foster innovative and inclusive workplaces.**
 
 **Key Features:**
