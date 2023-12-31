@@ -4,8 +4,8 @@ from openai import OpenAI
 import google.generativeai as genai
 
 # Load your API key (using a preferred method)
-client = OpenAI(api_key="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")
-genai.configure(api_key="AIzaSyD9Kq0Ic_vRgqn198zIDEVG7Mf1IxPH7xg")
+client = OpenAI(api_key=os.environ["OPENAI_API_KEY"])
+genai.configure(api_key=os.environ["GOOGLE_API_KEY"])
 
 # Initial message to set the model's perspective
 initial_message = """ You are a chatbot/conversational AI tool named Cora
